@@ -1,0 +1,9 @@
+name = "zinjectra-ticket-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables are set via the Cloudflare Dashboard or Wrangler CLI.
+# NEVER put your actual webhook URL here — use `wrangler secret put` instead.
+#
+# [vars]
+# ALLOWED_ORIGIN = "https://zinjectra.dev"
